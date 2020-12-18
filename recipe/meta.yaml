@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/r2d3_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/r2d3/r2d3_{{ version }}.tar.gz
-  sha256: 74093f6ad804e5c281437d9804ddd9aef3f5144c942ae7026628cbf65715c16c
+  sha256: f65e3911f18babb5fad7974b4006a96a736e2c0196c7f48bd07767ee2d2ed9f1
 
 build:
   merge_build_host: true  # [win]
-  number: 1002
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
