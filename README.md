@@ -1,11 +1,11 @@
-About r-r2d3
-============
+About r-r2d3-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-r2d3-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/r2d3
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-r2d3-feedstock/blob/main/LICENSE.txt)
 
 Summary: Suite of tools for using 'D3', a library for producing dynamic, interactive data visualizations. Supports translating objects into 'D3' friendly data structures, rendering 'D3' scripts, publishing 'D3' visualizations, incorporating 'D3' in R Markdown, creating interactive 'D3' applications with Shiny, and distributing 'D3' based 'htmlwidgets' in R packages.
 
